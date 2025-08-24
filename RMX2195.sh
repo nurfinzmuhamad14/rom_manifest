@@ -21,11 +21,11 @@ git clone https://github.com/SM4250-Dev/device_realme_RMX2195.git -b los device/
 git clone https://github.com/SM4250-Dev/device_realme_bengal-common.git -b los device/realme/bengal-common; \
 
 # Vendor
-git clone https://github.com/SM4250-Dev/vendor_realme_RMX2195.git vendor/realme/RMX2195 -b sunos-15; \
+git clone https://github.com/SM4250-Dev/vendor_realme_RMX2195.git vendor/realme/RMX2195 -b sunos-15 -depth=1; \
 # git clone https://github.com/hipexscape/proprietary_vendor_xiaomi_lancelot vendor/xiaomi/lancelot -b 15; \
 
 # Kernel
-git clone https://github.com/SM4250-Dev/kernel_realme_RMX2195.git -b stable kernel/realme/RMX2195; \
+git clone https://github.com/SM4250-Dev/kernel_realme_RMX2195.git -b stable -depth=1 kernel/realme/RMX2195; \
 
 # Hardware oplus
 git clone https://github.com/LineageOS/android_hardware_oplus.git hardware/oplus -b lineage-19.1; \
