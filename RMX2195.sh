@@ -18,7 +18,7 @@ rm -rf hardware/oplus; \
 # Device Tree
 git clone https://github.com/SM4250-Dev/device_realme_RMX2195.git -b los device/realme/RMX2195; \
 # Device tree common
-git clone https://github.com/SM4250-Dev/device_realme_bengal-common.git -b sunos-15 device/realme/bengal-common; \
+git clone https://github.com/SM4250-Dev/device_realme_bengal-common.git -b los device/realme/bengal-common; \
 
 # Vendor
 git clone https://github.com/SM4250-Dev/vendor_realme_RMX2195.git vendor/realme/RMX2195 -b sunos-15; \
