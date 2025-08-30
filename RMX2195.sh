@@ -1,19 +1,15 @@
 #! /bin/bash
-
 rm -rf .repo/local_manifests; \
-
 repo init -u https://github.com/LineageOS/android.git -b lineage-18.1 --git-lfs
-
 rm -rf prebuilts/clang/host/linux-x86; \
-
 /opt/crave/resync.sh; \
 
-rm -rf out/target/product/RMX2195; \
-rm -rf device/realme/RMX2195; \
-rm -rf kernel/realme/RMX2195; \
-rm -rf vendor/realme/RMX2195; \
-rm -rf device/realme/bengal-common; \
-rm -rf hardware/oplus; \
+rm -rf out/target/product/RMX2195
+rm -rf device/realme/RMX2195
+rm -rf kernel/realme/RMX2195
+rm -rf vendor/realme/RMX2195
+rm -rf device/realme/bengal-common
+rm -rf hardware/oplus
 
 # Device Tree
 git clone https://github.com/SM4250-Dev/device_realme_RMX2195.git -b los device/realme/RMX2195; \
