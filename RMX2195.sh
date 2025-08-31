@@ -17,7 +17,7 @@ git clone https://github.com/SM4250-Dev/device_realme_RMX2195.git -b los device/
 git clone https://github.com/SM4250-Dev/device_realme_bengal-common.git -b los device/realme/bengal-common; \
 
 # Vendor
-git clone https://github.com/SM4250-Dev/vendor_realme_RMX2195.git vendor/realme/RMX2195 -b sunos-15 --depth=1; \
+git clone https://github.com/SM4250-Dev/vendor_realme_RMX2195.git vendor/realme/RMX2195 -b los --depth=1; \
 
 # Kernel
 git clone https://github.com/SM4250-Dev/kernel_realme_RMX2195.git -b stable --depth=1 kernel/realme/RMX2195; \
