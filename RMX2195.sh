@@ -31,7 +31,7 @@ SM8250="https://github.com/custom-crdroid/hardware-qcom-caf-sm8250-xxx.git"
 # CLO HALs
 git clone $SM8250 -b audio hardware/qcom-caf/sm8250/audio
 git clone $SM8250 -b media hardware/qcom-caf/sm8250/display
-git clone $SM8250 -b display hardware/qcom-CLO/sm6115/media
+git clone $SM8250 -b display hardware/qcom-caf/sm8250/media
 
 # Vendor common
 git clone https://github.com/LineageOS/android_vendor_qcom_opensource_wfd-commonsys -b lineage-18.1 vendor/qcom/common/system/wfd
